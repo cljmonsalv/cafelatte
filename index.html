@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		 <meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <meta name="description" content="Ejercicios CSS">
+		 <meta name="keywords" content="banderas">
+
+		<title>Ejercicio 3</title>
+
+		<style>
+			*{
+				box-sizing: border-box;
+			  }
+			.divpadre {
+			position: absolute;
+			}	
+			.primerafila {
+			background-color:white;
+			}
+			.segundafila {
+			background-color:white;
+			}
+			.bandera1 {
+			border: 1px solid grey;
+			width: 500px;
+			height: 200px;
+			background-color:red;
+			display: inline-block;
+			}
+			.bandera2 {
+			border: 1px solid grey;
+			width: 500px;
+			height: 200px;
+			background-color:white;
+			position: relative;
+			display: inline-block;
+			}
+			.bandera3 {
+			width: 500px;
+			height: 200px;
+			background-color:black;
+			position: relative;
+			display: inline-block;
+			}
+			.bandera4 {
+			border: 1px solid grey;
+			width: 500px;
+			height: 200px;
+			background-color:white;
+			position: relative;
+			display: inline-block;
+			}
+			.franja {
+			top: 67px;
+			width: 500px;
+			height: 66px;
+			background-color:yellow;
+			position: relative;
+			}
+			.franjaverde {
+			z-index: 0;
+			width: 500px;
+			height: 66px;
+			background-color:green;
+			position: relative;
+			}
+			.franjanegra {
+			z-index: 0;
+			top: 67px;
+			width: 500px;
+			height: 66px;
+			background-color:black;
+			position: relative;
+			}
+			.columnaroja {
+			z-index: 1;
+			top: -133px;
+			width: 90px;
+			height: 200px;
+			background-color:red;
+			position: relative;
+			}	
+			.solnaciente {
+			width: 50px;
+			height: 50px;
+			border-radius: 90%;
+			background-color: red;
+			display: inline-block;
+			top: 75px;
+			left: 220px;
+			position: relative;
+			}
+		</style>
+	</head>
+
+  <body>
+    <main style="vertical-align:center;">
+          <div class="divpadre" style="background-color: white;">
+              <div class="primerafila">
+					<div class="bandera1">
+						<div class="franja">
+						</div>
+					</div>
+					<div class="bandera2">
+						<div class="franjaverde">
+						</div>
+						<div class="franjanegra">
+						</div>
+						<div class="columnaroja">
+						</div>
+					</div>					
+			  </div>
+              <div class="segundafila">
+					<div class="bandera3">
+					</div>
+					<div class="bandera4">
+						<div class="solnaciente">
+						</div>
+					</div>					
+			  </div>
+          </div>
+    </main>
+  </body>
+ </html>
